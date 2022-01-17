@@ -24,11 +24,4 @@ This is my first cocoapods demo.This is my first cocoapods demo
 
   s.source_files = 'demoPod/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'demoPod' => ['demoPod/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end
