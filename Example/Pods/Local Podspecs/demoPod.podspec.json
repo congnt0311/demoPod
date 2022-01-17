@@ -1,9 +1,10 @@
 {
   "name": "demoPod",
   "version": "0.1.0",
-  "summary": "A short description of demoPod.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/congnt/demoPod",
+  "summary": "This is my first cocoapods demo.",
+  "swift_versions": "5.5",
+  "description": "This is my first cocoapods demo.This is my first cocoapods demo",
+  "homepage": "https://github.com/congnt0311/demoPod",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +13,12 @@
     "congnt": "congnt0311@gmail.com"
   },
   "source": {
-    "git": "https://github.com/congnt/demoPod.git",
+    "git": "https://github.com/congnt0311/demoPod.git",
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "9.0"
+    "ios": "15.0"
   },
-  "source_files": "demoPod/Classes/**/*"
+  "source_files": "demoPod/Classes/**/*",
+  "swift_version": "5.5"
 }
