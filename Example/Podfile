@@ -1,10 +1,11 @@
 use_frameworks!
 
-platform :ios, '9.0'
+platform :ios, '15.0'
 
 target 'demoPod_Example' do
   pod 'demoPod', :path => '../'
-
+   pod 'AFNetworking', '~> 3.0'
+   pod 'FBSDKCoreKit', '~> 4.9'
   target 'demoPod_Tests' do
     inherit! :search_paths
 
