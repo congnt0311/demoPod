@@ -7,12 +7,16 @@
 //
 
 import UIKit
+import demoPod
 
 class ViewController: UIViewController {
-
+    let a = LeftImageTextField()
+    let b = DashBoard()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        b.show()
     }
 
     override func didReceiveMemoryWarning() {

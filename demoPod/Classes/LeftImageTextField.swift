@@ -1,6 +1,6 @@
 import UIKit
 
-class LeftImageTextField: UITextField {
+public class LeftImageTextField: UITextField {
     
     @IBInspectable private var leftImage: UIImage? {
         didSet {
@@ -18,7 +18,7 @@ class LeftImageTextField: UITextField {
         setLeftView()
     }
     
-    private func setLeftView() {
+    public func setLeftView() {
         let leftImageView = UIImageView(image: leftImage)
         if let size = leftImageView.image?.size {
             leftImageView.frame = CGRect(x: 0.0, y: 0.0, width: size.width + 8.0, height: size.height)

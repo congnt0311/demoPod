@@ -22,6 +22,6 @@ This is my first cocoapods demo.This is my first cocoapods demo
   s.source           = { :git => 'https://github.com/congnt0311/demoPod.git', :tag => s.version.to_s }
   s.ios.deployment_target = '15.0'
 
-  s.source_files = 'demoPod/Classes/**/*'
+  s.source_files = 'demoPod/Classes/**/*'	
   
 end
