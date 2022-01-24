@@ -1,10 +1,12 @@
 use_frameworks!
 
 platform :ios, '15.0'
+#source 'https://git@github.com:congnt0311/demoPods.git'
 
 target 'demoPod_Example' do
   
   pod 'demoPod', :path => '../'
+  #pod 'demoPods'
 
   target 'demoPod_Tests' do
     inherit! :search_paths
